@@ -16,5 +16,12 @@ def about():
     <p>This application was pushed to GitHub and deployed on EC2.</p>
     """
 
+@app.route("/suba")
+def suba():
+    return """
+    <h1>Suba</h1>
+    <p>This is the Suba page.</p>
+    """
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
