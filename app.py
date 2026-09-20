@@ -22,6 +22,12 @@ def suba():
     <h1>Suba</h1>
     <p>This is the Suba page.</p>
     """
+@app.route("/bobby")
+def bobby():
+    return """
+    <h1>Bobby</h1>
+    <p>This is the Bobby page.</p>
+    """
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
