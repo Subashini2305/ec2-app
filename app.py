@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return """
     <h1>Hello from AWS EC2! 🚀</h1>
-    <p>My Python Flask application is running on an EC2 instance.</p>
+    <p>testtttt My Python Flask application is running on an EC2 instance.hi </p>
     """
 
 @app.route("/about")
