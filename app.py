@@ -13,7 +13,7 @@ def home():
 def about():
     return """
     <h1>About</h1>
-    <p>This application was pushed to GitHub and deployed on EC2.</p>
+    <p>This testttt application was pushed to GitHub and deployed on EC2.</p>
     """
 
 @app.route("/suba")
